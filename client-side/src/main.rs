@@ -35,10 +35,10 @@ async fn main() -> Result<(), Box<dyn Error>> {
             //if yk how to read its called on_send_message for a reason
             gui.on_send_message({
 
-                async move |message: SharedString| {
+                 move |message: SharedString| {
                 let msg_clone = message.clone();
-                let _ = stream.write(msg_clone.to_string().as_bytes()).await;
-                let _ = stream.flush().await;
+                let _ = stream.write(msg_clone.to_string().as_bytes());
+                let _ = stream.flush();
                 println!("sent message: {}", msg_clone);
         }
     });
