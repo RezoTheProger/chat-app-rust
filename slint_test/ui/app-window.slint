@@ -1,0 +1,87 @@
+import { Button, VerticalBox, HorizontalBox, GridBox, LineEdit } from "std-widgets.slint";
+component messageTab {
+        in-out    property <string> messageContent; 
+        
+            Rectangle {
+            background: whitesmoke;
+            width: t.width +  10px;
+            preferred-height: t.height + 10px;
+            border-radius: 10px;
+            
+            t:=Text {
+                text: root.messageContent;
+                font-size: 15px;
+                font-weight: 500;
+                width: 250px;
+               color: black;
+                wrap: word-wrap;
+                horizontal-alignment: TextHorizontalAlignment.left;
+                
+            }
+            
+            
+    }
+}
+export component AppWindow inherits Window {
+    callback send-message(string);
+    callback get-message();
+    width:300px;
+    height:500px;
+    background: greenyellow;
+
+    in-out property <[string]> messages : [
+      "tag1",
+      "tag2",
+      "ballscrack are great",
+      "your mom so fat thescreen became ejfhazqefjyazfieuhzgefahjzekagazehfat",
+      "dhezj"
+    ];
+
+
+
+
+    VerticalLayout {
+        HorizontalLayout {
+            
+            Rectangle {
+            
+            background: green;
+            height: 10%;
+            Text{text: "balls-Chat";}
+            }
+        
+        }
+        HorizontalLayout {            
+                height: 80%;
+                width: parent.width;
+
+               VerticalLayout {
+                   padding-top: 10px;
+                   alignment: end;
+                   spacing: 10px;
+                   padding-right: 30px;
+                    for message in root.messages: 
+                     messageTab{
+                         
+                        messageContent: message;
+                    }
+            }
+        }
+         HorizontalLayout {
+             height: 10%;
+             
+            LineEdit {
+                font-size: 10px;
+               accepted => {send_message(self.text); self.text= "";}  
+                width: parent.width;
+                placeholder-text: "Message:";
+                 
+                
+
+                }
+            
+        }
+
+    }
+           
+}

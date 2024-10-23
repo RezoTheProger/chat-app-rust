@@ -1,0 +1,24 @@
+# Ignore build artifacts
+/target/
+**/*.rs.bk
+
+# Ignore Cargo.lock (if you're building a library)
+# If your project is a binary application, you should track Cargo.lock
+# /Cargo.lock
+
+# Ignore backup files created by editors
+*~
+*.swp
+*.swo
+
+# Ignore generated documentation
+/doc/
+
+# Ignore the output of 'cargo test' and 'cargo bench'
+/test-output/
+/bench-output/
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+
