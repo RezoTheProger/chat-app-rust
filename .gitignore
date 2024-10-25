@@ -10,7 +10,7 @@
 *~
 *.swp
 *.swo
-
+*.bin
 # Ignore generated documentation
 /doc/
 
