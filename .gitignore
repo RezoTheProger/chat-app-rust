@@ -11,6 +11,11 @@
 *.swp
 *.swo
 *.bin
+*.o
+*.d
+*.ll
+*.rmeta
+*.rlib
 # Ignore generated documentation
 /doc/
 
