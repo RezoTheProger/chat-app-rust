@@ -1,0 +1,5 @@
+/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/deps/libcrypto_common-8977fce85fc87411.rmeta: /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crypto-common-0.1.6/src/lib.rs
+
+/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/deps/crypto_common-8977fce85fc87411.d: /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crypto-common-0.1.6/src/lib.rs
+
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crypto-common-0.1.6/src/lib.rs:

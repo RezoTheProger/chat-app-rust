@@ -4,6 +4,7 @@ use std::{error::Error, rc::Rc};
 use slint::{ModelRc, SharedString, VecModel};
 use tokio::{io::{AsyncReadExt, AsyncWriteExt}, net::TcpStream};
 use tokio_tungstenite::accept_async;
+use std::sync::Arc;
 slint::include_modules!();
 
 
@@ -35,11 +36,12 @@ async fn main() -> Result<(), Box<dyn Error>> {
             //if yk how to read its called on_send_message for a reason
             gui.on_send_message({
 
-                 move |message: SharedString| {
+                async move |message: SharedString| {
                 let msg_clone = message.clone();
-                let _ = stream.write(msg_clone.to_string().as_bytes());
-                let _ = stream.flush();
+                
+                let _ = stream.write_all(msg_clone.to_string().as_bytes()).await;
                 println!("sent message: {}", msg_clone);
+                    
         }
     });
 

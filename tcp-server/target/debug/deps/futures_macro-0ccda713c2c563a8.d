@@ -1,0 +1,9 @@
+/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/deps/libfutures_macro-0ccda713c2c563a8.so: /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/lib.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/executor.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/join.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/select.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/stream_select.rs
+
+/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/deps/futures_macro-0ccda713c2c563a8.d: /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/lib.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/executor.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/join.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/select.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/stream_select.rs
+
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/lib.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/executor.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/join.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/select.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/futures-macro-0.3.31/src/stream_select.rs:

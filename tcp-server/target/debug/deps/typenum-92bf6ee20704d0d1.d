@@ -1,0 +1,17 @@
+/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/deps/libtypenum-92bf6ee20704d0d1.rmeta: /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/lib.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/bit.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/int.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/marker_traits.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/operator_aliases.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/private.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/type_operators.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/uint.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/array.rs /home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/build/typenum-cfd3cb3d93ef2fac/out/op.rs /home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/build/typenum-cfd3cb3d93ef2fac/out/consts.rs
+
+/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/deps/typenum-92bf6ee20704d0d1.d: /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/lib.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/bit.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/int.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/marker_traits.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/operator_aliases.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/private.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/type_operators.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/uint.rs /home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/array.rs /home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/build/typenum-cfd3cb3d93ef2fac/out/op.rs /home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/build/typenum-cfd3cb3d93ef2fac/out/consts.rs
+
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/lib.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/bit.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/int.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/marker_traits.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/operator_aliases.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/private.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/type_operators.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/uint.rs:
+/home/rezo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/array.rs:
+/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/build/typenum-cfd3cb3d93ef2fac/out/op.rs:
+/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/build/typenum-cfd3cb3d93ef2fac/out/consts.rs:
+
+# env-dep:OUT_DIR=/home/rezo/Workspace/chat-app-rust/tcp-server/target/debug/build/typenum-cfd3cb3d93ef2fac/out
