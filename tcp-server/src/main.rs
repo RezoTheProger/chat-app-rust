@@ -13,14 +13,17 @@ async fn main() {
        
 
 
-    match listener.accept().await{
-        Ok(( stream,socket)) => {
-            println!("user from addr: {} connected successfully!",socket);
-            handle_connection(stream).await;
-        },
-        Err(e) => println!("couldn't get a connection, error occured: {}",e),
-    }
+    loop{
 
+        match listener.accept().await{
+            Ok(( stream,socket)) => {
+                println!("user from addr: {} connected successfully!",socket);
+                tokio::spawn(async move{handle_connection(stream).await;});
+            },
+            Err(e) => println!("couldn't get a connection, error occured: {}",e),
+        }
+
+    }
 }
         
 async fn handle_connection(mut stream:TcpStream){
